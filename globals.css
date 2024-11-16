@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    background-color: rgb(30, 31, 32);
+    @apply focus:bg-opacity-45 outline-none
+}
